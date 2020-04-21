@@ -21,6 +21,8 @@ void fibo(int n)
     {
         hasil=fibo1+fibo2;
         printf("%d ", hasil);
+        if(i==0)
+            printf("0");
         if(hasil==0)
             fibo2=1;
         else
